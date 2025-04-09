@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-11-19 09:51:16
+ * @LastEditTime: 2025-04-09 09:17:19
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Panel-Lite</h1>
@@ -96,6 +96,7 @@ T-Panel-Lite是T-Panel的精简版，需要特别注意的是T-Panel-Lite版本�
 | [SD_MJPEG](./examples/SD_MJPEG) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
 | [T-Panel-Lite_Test](./examples/T-Panel-Lite_Test) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | 出厂初始测试文件|  |
 | [Wifi](./examples/Wifi) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
+| [Lvgl_benchmark](./examples/Lvgl_benchmark) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |

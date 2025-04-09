@@ -2,10 +2,9 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2025-04-09 09:02:08
- * @LastEditTime: 2025-04-09 09:09:27
+ * @LastEditTime: 2025-04-09 09:17:02
  * @License: GPL 3.0
  */
-
 #include "lvgl.h"
 #include "Arduino_GFX_Library.h"
 #include "pin_config.h"
@@ -96,7 +95,7 @@ void setup()
 
     gfx->begin();
     gfx->fillScreen(BLACK);
-    
+
     lvgl_initialization();
 
     lv_demo_benchmark();
