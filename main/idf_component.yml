@@ -1,0 +1,15 @@
+dependencies:
+  idf: '>=5.5.4'
+
+  private_library:
+    override_path: "../libraries/private_library"
+
+  st7701_driver:
+    override_path: "../libraries/st7701_driver"
+
+  lvgl/lvgl:
+    version: "9.5.0"
+    matches:
+      - if: "$CONFIG{EXAMPLE_BUILD_SCREEN_LVGL} == True"
+      - if: "$CONFIG{EXAMPLE_BUILD_SD} == True"
+      - if: "$CONFIG{EXAMPLE_BUILD_GENERAL_TEST} == True"

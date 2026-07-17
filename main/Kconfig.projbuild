@@ -1,0 +1,16 @@
+menu "Example Configuration"
+
+    choice
+        prompt "Select the example to build"
+        default EXAMPLE_BUILD_SCREEN
+        config EXAMPLE_BUILD_SCREEN
+            bool "screen"
+        config EXAMPLE_BUILD_SCREEN_LVGL
+            bool "screen_lvgl"
+        config EXAMPLE_BUILD_SD
+            bool "sd"
+        config EXAMPLE_BUILD_GENERAL_TEST
+            bool "general_test"
+    endchoice
+
+endmenu

@@ -1,0 +1,5 @@
+dependencies:
+  idf: '>=5.5.4'
+
+  private_library:
+    override_path: "../private_library"
